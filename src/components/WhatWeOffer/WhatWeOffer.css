@@ -1,0 +1,79 @@
+.whatweoffer{
+    height: 500px;
+    max-width: 100%;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+.wwo1{
+    width: 100%;
+    height: 500px;
+
+    position: relative;
+    top: 300px;
+}
+.wwo1 .main-head{
+    color: #168B34;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+} .wwo1 .hlt06{
+    position: absolute;
+    width: 82px;
+    height: 70px;
+    flex-shrink: 0;
+    left: 62%;
+    top: 10%;
+}
+
+/*ellipse part*/
+ .wwo .ellipse2{
+    max-width: 100%;
+    position: relative;
+    z-index: 0;
+ }
+ 
+ .ellipse22{
+    position: absolute;
+    width: 100%;
+    z-index: -5;
+    left:0px;
+ } .gallary{
+    max-width: 100%;
+    position: absolute;
+    z-index: 5;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    left: 8%;
+    right: 10%;
+ } .gallary img{
+    max-width: 50vw;
+    max-height: 35vh;
+    flex-shrink: 0;
+   } .box1{
+      margin: 0vh 2px;
+   }
+    .box1 .text11{
+    color: #fff;
+    text-align: right;
+    padding: 3vw;
+    position: absolute;
+    z-index: 10;
+    bottom: 0px;
+    font-size: 1.5vh;
+ } .box11 .text11{
+   left: 2%;
+} .box12 .text11{
+   left: 45%;
+} .box13 .text11{
+   left: 84.5%;
+} .text11 h2{
+   font-size: 200%;
+} .text11 p{
+   font-size: 150%;
+} 

@@ -1,0 +1,150 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.our-3ws {
+    position: absolute;
+    left: 78px;
+    top: 1080px;
+}
+
+._3ws h1 {
+    color: #168B34;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-family: Montserrat;
+    font-size: 96px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+._3ws img {
+    width: 20%;
+    padding-top: 0px;
+    position: relative;
+    left: 14%;
+    top: -150px;
+}
+.question {
+    position: relative;
+    left: -180px;
+    top: 90px;
+}
+
+.line {
+    height: 750px;
+    width: 150px;
+    position: absolute;
+    left: 0;
+    top: 0; /* Adjust as needed */
+}
+.what h1,.why h1,.who h1{
+    font-size: 40px ;
+    position: relative;
+}   .why h1{
+    margin-bottom: 15px;
+}
+.what .cell{
+    padding-left: 0px;
+    margin-top: 15px;
+} .who .cell{
+    margin-top: 20px;
+}
+.para{
+    width: 50%;
+    margin-top: 15px;
+    font-size: large;
+}
+.cell {
+    color: aliceblue;
+    font-size: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    height: 40px;
+    border-radius: 5px;
+    background: #22AC2E;
+    overflow: hidden; /* Hide overflow content */
+    white-space: nowrap; /* Prevent text from wrapping */
+    text-overflow: ellipsis; /* Add an ellipsis (...) for overflow text */
+    padding: 0 10px; /* Adjust padding as needed */
+    box-sizing: border-box; /* Include padding in the total width and height */
+}
+
+
+.right11{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    position: absolute;
+    top: 1310px;
+    left: 250px;
+}
+.what{
+    padding-top: 0px;
+    margin-bottom: 90px;
+} .who{
+    margin-bottom: 180px;
+} .why{
+    margin-top: 100px;
+    
+}
+
+.endq {
+    position: relative;
+    width: 100%;
+    padding-bottom: 50px;
+}
+
+.endq .img306 {
+    position: absolute;
+    bottom: 0;
+    left: 0; /* Align to the left */
+    top:45px;
+    width: 100%;
+}
+._3ws .suraj21 {
+    width: 300px;
+    height: 700px;
+    position: absolute;
+    z-index: 15;
+    top: 1790px;
+    padding-bottom: 190px;
+    padding-left: 890px;
+}
+
+
+@media (max-width: 768px) {
+    .endq .img306 {
+        width: 100%;
+        margin-top: 1080px; /* Adjust margin as needed */
+    }
+
+    .line, .vector {
+        display: none;
+    }
+    ._3ws h1{
+        font-size: 70px;
+        margin-right: 10px;
+    }
+
+    ._3ws .suraj21 {
+        height: 50%;
+        width: 50%;
+        margin-top: 820px; /* Adjust margin as needed */
+        padding-left: 290px; /* Remove padding-left */
+        right: 0; /* Remove right positioning */
+        position: static; /* Remove absolute positioning */
+    }
+
+    .right11 {
+        top: auto; /* Remove top positioning */
+        left: 0; /* Align to the left */
+    }
+
+    .who,.what,.why{
+        padding-left: 30px;
+    }
+}

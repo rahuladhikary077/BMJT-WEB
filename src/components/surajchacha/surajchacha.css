@@ -1,0 +1,93 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.surajchacha {
+    position: relative;
+    z-index: -5;
+    background-color: black;
+    margin-top: 40vw; /* Adjust based on your design */
+    height: 200vh; /* Full viewport height */
+    max-width: 100%;
+}
+
+.upper1 {
+    position: relative;
+    bottom: 40vh; /* Adjust based on your design */
+    padding-top: 180px;
+    margin-left: 5vw; /* Adjust based on your design */
+}
+
+.right115 {
+    position: absolute;
+    right: -11vw;
+    transform: translateX(-50%);
+}
+
+.right115 img {
+    height: 40vw; /* Adjust based on your design */
+    max-width: 100%;
+    position: relative;
+    top: 20vw; /* Adjust based on your design */
+    transform: rotate(4.409deg);
+}
+
+.left115 {
+    position: absolute;
+    float: left;
+    top: 120vh; /* Adjust based on your design */
+}
+
+.left115 h1 {
+    position: relative;
+    bottom: 15vh;
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 5vw; /* Adjust based on your design */
+    font-style: normal;
+    font-weight: 700;
+    line-height: 4vw; /* Adjust based on your design */
+}
+
+.left115 .spolit {
+    margin-top: 3vw; /* Adjust based on your design */
+}
+
+.mid112 {
+    position: relative;
+    top: 80vh; /* Adjust based on your design */
+    left: 5vw; /* Adjust based on your design */
+}
+
+.mid112 p {
+    color: #B1B1B1;
+    text-align: left;
+    font-family: Montserrat;
+    font-size: 2.5vw; /* Adjust based on your design */
+    font-style: normal;
+    font-weight: 400;
+    line-height: 2vw; /* Adjust based on your design */
+}
+
+.main-button {
+    display: flex;
+    margin-top: 4vw; /* Adjust based on your design */
+}
+
+.main-button button {
+    padding: 2vw; /* Adjust based on your design */
+    width: 15vw; /* Adjust based on your design */
+    border-radius: 5vw; /* Adjust based on your design */
+    border: 0.5vw solid #000; /* Adjust based on your design */
+    background: #25D366;
+    color: #FFFFFF;
+    font-size: 1.5vw; /* Adjust based on your design */
+    font-weight: 200px;
+}
+
+.main-button button.main-button:hover {
+    background: #088421;
+}
+

@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.roadmap{
+    width: 100%;
+    position: relative;
+    height: 600px;
+}
+.road-button{
+    color: #ffffff;
+    font-size: 20px;
+    z-index: 10;
+    bottom: 570px;
+    left: 42vw;
+    border-radius: 40px;
+    border: 1px solid rgba(255, 255, 255, 0.50);
+    background: linear-gradient(86deg, rgba(208, 207, 210, 0.29) 11.14%, rgba(255, 255, 255, 0.00) 113.29%);
+    box-shadow: 0px 1.197px 29.915px 0px rgba(69, 42, 124, 0.10);
+    backdrop-filter: blur(35px);
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    position: absolute;
+} .button-div{
+    background-color: #02FD42;
+    fill: linear-gradient(180deg, #11FB4D 0%, #14BC3F 100%);
+}
+.road-img{
+    position: relative;
+    top: 100px;
+}
+.road-img img{
+    position: relative;
+    height: fit-content;
+    width: 85%;
+    align-items: center;
+    justify-content: center;
+    left: 10%;
+}
+
+.download-brochure {
+    position: relative;
+    display: flex;
+    z-index: 5;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    justify-content: center;
+    align-items: center;
+}
+
+.download-brochure button {
+    display: flex;
+    align-items: center;
+    padding: 2vw; /* Adjust based on your design */
+    border: 0.2vw solid black; /* Adjust based on your design */
+    border-radius: 5vw; /* Adjust based on your design */
+    background-color: #11FB4D;
+    font-size: 2vw; /* Adjust based on your design */
+}
+
+.download-brochure button img {
+    margin-right: 1vw; /* Adjust based on your design */
+}
+
